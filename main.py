@@ -1,2 +1,5 @@
 def main():
-    print('Hello');
+    print('Hello')
+    
+    class GitTest:
+        pass
