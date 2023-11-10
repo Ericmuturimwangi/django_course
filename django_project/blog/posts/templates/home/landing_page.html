@@ -1,0 +1,19 @@
+{% extends 'layout/base_layout.html' %}
+{% block links %}
+<style>
+    p{
+        color:blue;
+    }
+</style>
+{% endblock%}
+
+
+{% block content %}
+<h1>My First Heading</h1>
+{% for i in data %}
+
+<p>My first paragraph.</p>
+{% endfor %}
+
+{% endblock content %}
+
